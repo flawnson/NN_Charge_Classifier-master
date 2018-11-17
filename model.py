@@ -55,8 +55,8 @@ for test_fp in test_fps:
 """NEURAL NETWORK"""
 #The neural network model
 model = Sequential([
-    Dense(256, input_shape=(256,), activation= "sigmoid"),
-    Dense(128, activation= "relu"),
+    Dense(256, input_shape=(256,), activation= "relu"),
+    Dense(128, activation= "sigmoid"),
     Dense(64, activation= "sigmoid"),
     Dense(34, activation= "sigmoid"),
     Dense(16, activation= "sigmoid"),
